@@ -150,7 +150,7 @@ export default function MarketHome() {
       </Container>
       <Container maxWidth="xl" sx={{ px: { sm: 3, md: 6, lg: 9 } }}>
         <Stack spacing={10}>
-          <Box>
+          {/* <Box>
             <Stack direction="row">
               <TitleStyle component="h1" flexGrow={1}>
                 Recently Sold{' '}
@@ -171,7 +171,7 @@ export default function MarketHome() {
               </Button>
             </Stack>
             <FilteredAssetGrid type="recent_sold" />
-          </Box>
+          </Box> */}
           <CardStyle>
             <Box component="div">
               <TitleStyle component="h1">Get Started with Essentials</TitleStyle>
@@ -333,7 +333,7 @@ export default function MarketHome() {
               </Button>
             </Stack>
           </CardStyle>
-          <Box>
+          {/* <Box>
             <Stack direction="row">
               <TitleStyle component="h1" sx={{ flex: 1 }}>
                 Latest Transactions{' '}
@@ -352,9 +352,9 @@ export default function MarketHome() {
               </Button>
             </Stack>
             <FilteredTransGrid />
-          </Box>
+          </Box> */}
           <CardStyle>
-            <Box component="div">
+            {/* <Box component="div">
               <TitleStyle component="h1">Elastos Smart Chain (ESC)</TitleStyle>
               <Typography variant="p" component="div" sx={{ color: 'text.secondary' }}>
                 ESC is a programmable smart-contract sidechain that runs on Elastos. Smart contracts, written in
@@ -375,15 +375,15 @@ export default function MarketHome() {
                 Our partners on ESC include <ExternalLink linkURL="https://glidefinance.io" title="Glide Finance" />, a
                 decentralized exchange (DEX) and Essentials Wallet, for DID and asset management.
               </Typography>
-            </Box>
-            <Stack spacing={1} direction="row" sx={{ position: 'absolute', bottom: 0, mr: 4 }}>
+            </Box> */}
+            {/* <Stack spacing={1} direction="row" sx={{ position: 'absolute', bottom: 0, mr: 4 }}>
               <StyledButton variant="contained" href="https://glidefinance.io/swap" target="_blank">
                 Get ELA
               </StyledButton>
               <Button variant="outlined" href="https://www.elastos.org/esc" target="_blank" color="inherit">
                 Learn more about ESC
               </Button>
-            </Stack>
+            </Stack> */}
           </CardStyle>
         </Stack>
       </Container>
